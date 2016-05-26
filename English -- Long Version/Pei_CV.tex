@@ -1,0 +1,513 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Pei-ZENG-CV-2016-06
+%% <https://github.com/qubiter/pei-cv>
+%% This is Pei Zeng's CV (long version).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Adopted the SIMPLE-RESUME-CV template
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,MMMyyyy,nonstop]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, draft, nonstop
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+\usepackage{amsmath}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Pei Zeng}
+\newcommand{\CVTitle}{Pei Zeng's Resume}
+\newcommand{\CVNote}{CV compiled on {\today} in English.(long version)}
+\newcommand{\CVWebpage}{http://www.github.com/qubiter/pei-cv}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+
+\begin{subtitle}
+%\href{https://www.google.com/maps/place/17+Prime+Avenue,+Springfield,+Pennsylvania+10111,+USA}
+%{School of Physics, Nanjing University Gulou Campus, Jiangsu Province, China}
+School of Physics, Nanjing University Gulou Campus, Jiangsu Province, China, 210093
+\par
+\href{peizeng@live.com}
+{peizeng@live.com}
+%\,\SubBulletSymbol\,
+%+(86)\,158\,5181\,7007
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\CVWebpage}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{http://www.nju.edu.cn}
+{\textbf{Nanjing University}},
+Nanjing, Jiangsu, China
+
+\GapNoBreak
+\BulletItem
+Bachelor of Science (B.S.) in
+\href{http://physics.nju.edu.cn/}
+{Physics} (minor in Acoustics)
+\hfill
+\DatestampYMD{2012}{09}{01} --
+\DatestampYMD{2016}{06}{20}
+\begin{detail}
+\SubBulletItem
+Cumulative GPA: 4.536 / 5.0 (Ranking: 8/182)
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
+
+
+\textbf{Physics Experiment Teaching Center},
+Nanjing University
+
+\GapNoBreak
+\BulletItem
+Undergraduate Research Student, Physics Department
+\hfill
+\DatestampYMD{2012}{12}{01} --
+\DatestampYMD{2014}{05}{01}
+\begin{detail}
+\SubBulletItem
+Project 1: Work on the 2013 IYPT problems
+\SubBulletItem
+Supervisor: 
+Prof. Sihui Wang
+\SubBulletItem
+IYPT problems concerns some daily physical phenomenon. I’ve accomplished some works on ‘Jet and Film’, ‘Carbon Microphone’ and ‘Levitation’, some of which are published in the ‘Collection of works for IYPT problems(25th-26th)’ by World Scientific Press.
+\end{detail}
+
+\GapNoBreak
+\begin{detail}
+\SubBulletItem
+Project 2: Improvement in Measuring Tiny Displacement with Double Gratings
+\SubBulletItem
+Supervisor: 
+Prof. Huijun Zhou
+\SubBulletItem
+A new method to reconstruct the motion process of grating based on anti-solving the ‘cos’ equation. The work was published in Chinese magazine ‘College Physics’ in 2016.
+\end{detail}
+
+\Gap
+
+\href{http://slab.nju.edu.cn/}
+{\textbf{Dieletric Superlattice Laboratory}},
+Nanjing University
+
+\GapNoBreak
+\BulletItem
+Undergraduate Research Student, Physics Department
+\hfill
+\DatestampYMD{2014}{05}{15} --
+\DatestampYMD{2016}{02}{01}
+\begin{detail}
+\SubBulletItem
+Project: A Feasible Design of Decimeter-size Sub-wavelength Metalens
+\SubBulletItem
+Supervisor: 
+Dr. Shuming Wang, Associate Researcher
+\SubBulletItem
+Partly supported by National Training Programs of Innovation for Undergraduates.
+\SubBulletItem
+Realizing far-field sub-wavelength imaging in mid-infrared band. Using silver microstructure for phase compensation; hyperbolic material for sub-wavelength propagation.
+\SubBulletItem
+Received Certification from National Training Programs of Innovation for Undergraduates with rating ``Excellent''. Reveived A patent for the Metalens design.
+\SubBulletItem
+Also took part in some other related works in the lab, including the design of wheeler delayed-choice experiment in SPP system; the simulation of nonlinear effect using COMSOL, etc.
+\end{detail}
+
+\Gap
+
+\href{https://groups.oist.jp/light}
+{\textbf{Light-Matter Interaction Unit}},
+Okinawa Institute of Science and Technology
+
+\GapNoBreak
+\BulletItem
+Research Intern
+\hfill
+\DatestampYMD{2015}{10}{17} --
+\DatestampYMD{2016}{12}{28}
+\begin{detail}
+\SubBulletItem
+Project: Optomechanical Effect Detection in Slotted Tapered Fiber
+\SubBulletItem
+Supervisors:
+Prof. Sile Nic Chormaic, Dr. Yong Yang
+\SubBulletItem
+Observe Optomechanical effect in Slotted Tapered Optical Nanofiber using the Mach-Zender Interferometer. Try to couple the optical mode and mechanical mode using the modulated 1550nm laser amplified by EDFA.
+\SubBulletItem
+Completed the constrction of MZI both in free space and with in-fibre design. Made the in-fibre MZI sensitive enough for acoustic phonon detection in the fibre. (Homodyne Detection, PZ control)
+\SubBulletItem
+Also learned how to make silicon and $As_2S_3$ nanosphere using $CO_2$ laser(10.6um) and how to test the Whisper Gallery Mode in it.
+\end{detail}
+
+\Gap
+
+\href{http://ese.nju.edu.cn/ICAIS/}
+{\textbf{Integrated Circuit and Intelligent System Lab}},
+School of Electronic Science and Engineering, Nanjing University
+
+\GapNoBreak
+\BulletItem
+Undergraduate Research Student, Physics Department.
+\hfill
+\DatestampYMD{2016}{02}{15} --
+\DatestampYMD{2016}{05}{20}
+\begin{detail}
+\SubBulletItem
+Project: Algorithm Test and A Digital Circuit Design of The DeSTIN Deep Learning Frame
+\SubBulletItem
+Supervisors:
+Prof. Zhongfeng Wang, Dr. Jun Lin
+\SubBulletItem
+Worked as my bachelor thesis project. More info on \href{https://github.com/qubiter/Bachelor-Thesis-Chinese}{\underline{Bachelor Thesis on Github(Chinese)}}.
+\SubBulletItem
+Tested a new deep learning frame: Deep SpatioTemporal Inference Network(DeSTIN) using MATLAB and Python;
+\SubBulletItem
+Exerted the EDA tool to design a Digital Circuit for the core algorithm in DeSTIN, programmed in Verilog HDL.
+\end{detail}
+
+
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
+
+\section
+{Publications}
+{Publications}
+{PDF:Publications}
+
+\subsection
+{Journals}
+{Journals}
+{PDF:Journals}
+
+\GapNoBreak
+\NumberedItem{[1]}
+\href{http://www.cnki.net/kcms/detail/detail.aspx?DbCode=CJFQ&dbname=CJFDLAST2016&filename=DXWL201601016&uid=WEEvREcwSlJHSldSdnQ0SWZ2dGI4SEhQemFnWXVOK0VMNTJLSjdyRGFmeEZzNmhzZnp6MFpJRzFnSUJpeVVTaklBPT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!}
+{CHEN Si, \underline{ZENG Pei}, ZHOU Hui-jun, and WANG si-hui,
+``Improvement and application on method of measuring
+the tiny displacement with double grating''
+\textit{College Physics},
+vol.~35,
+no.~1,
+pp.~53--56,
+\DatestampYM{2016}{01}.}
+
+% Note the use of {\CharSpace} for aligning shorter numbers.
+\Gap
+\NumberedItem{[2]}
+\href{http://www.worldscientific.com/worldscibooks/10.1142/9355}
+{Sihui Wang and Wenli Gao,
+``International Young Physicists\' Tournament, Problems and Solutions 2012–2013''
+\textit{World Scientific Press},
+chapter.~10,~12,
+\DatestampYM{2014}{12}.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\BulletItem
+\textbf{Silver Medal} of \href{http://www.uphysicsc.com/2013contest.html}{4th University Physics Competition}
+(hosted by America Physics Society and American Astronomical Society)
+\hfill
+\DatestampYMD{2013}{12}{13}
+\begin{detail}
+\SubItem
+For works on the Problem B. Extraterrestrial Life.
+\end{detail}
+
+\Gap
+\BulletItem
+\textbf{Second Prize} 
+of 4th China Undergraduate Physics Tournament
+\hfill
+\DatestampYMD{2013}{08}{13}
+
+\Gap
+\BulletItem
+\textbf{Second Prize}
+of China Undergraduate Mathematical Contest in Modeling
+\hfill
+\DatestampYMD{2014}{12}{15}
+
+\Gap
+\BulletItem
+\textbf{Industrial Responsibility Scholarship}(RMB5000)(for top $5\%$),
+\hfill
+\DatestampYMD{2013}{10}{15}
+
+\Gap
+\BulletItem
+\textbf{People's Scholarship}(RMB2000)(for top $10\%$),
+\hfill
+\DatestampYMD{2014}{10}{15}
+
+\Gap
+\BulletItem
+\textbf{National Schoarship}(RMB8000)(for top $1\%$),
+\hfill
+\DatestampYMD{2015}{10}{15}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% CAMPUS ACTIVITIES %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Campus Activities}
+{Campus Activities}
+{PDF:CampusActivities}
+
+\textbf{Focus Society},
+Nanjing University
+
+\GapNoBreak
+\begin{detail}
+\BulletItem
+The society mainly focus on life topic and literature, making newspaper 2~3 times every semester from the discussion of society members and other interested students who take part in.
+\end{detail}
+\BulletItem
+Member in Editoring Minister
+\hfill
+\DatestampYMD{2012}{10}{08} --
+\DatestampYMD{2013}{06}{20}
+\BulletItem
+Chief Editor
+\hfill
+\DatestampYMD{2013}{06}{20} --
+\DatestampYMD{2014}{06}{20}
+\begin{detail}
+\SubBulletItem
+Organized the content planning and type setting, and completed the final modification of 5 Focus newspapers as the chief editor, which received good rating in my department.
+\SubBulletItem
+Arranged 2~3 times of `type setting with CorelDraw and Photoshop' workshop inside the Focus society.
+\SubBulletItem
+Arranged a Society travel to Soochow City; Participated in 2~3 travel activities (Xitang City in Zhejiang Province; Mount Qixia in Nanjing, etc.).
+\end{detail}
+
+\textbf{Young Volunteers' Association},
+Physics Department
+\BulletItem
+Member
+\hfill
+\DatestampYMD{2012}{10}{01} --
+\DatestampYMD{2013}{06}{20}
+\begin{detail}
+\SubBulletItem
+Organized/ Joined in 3 times of `Enlight Science among Pupils' activities, which mainly aim to popularize science knowledge and inspire the interest in Science among pupils.
+\end{detail}
+
+\textbf{Student Research Training Program's Society},
+Nanjing University
+\BulletItem
+Member
+\hfill
+\DatestampYMD{2013}{10}{20} --
+\DatestampYMD{2014}{06}{20}
+\begin{detail}
+\SubBulletItem
+Organized the `XiaoXiongLunDao' activities once, acting as a small platform for communication among students and professors who work in the same academic topics. The `XiaoXiongLunDao' I arranged mainly focus on `Architecture and Space Design'.
+\end{detail}
+
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BulletItem
+Chinese: Native language.
+
+\GapNoBreak
+\BulletItem
+English: Fluent (speaking, reading, writing, listening).
+
+\GapNoBreak
+\BulletItem
+Japanese: Basic (listening, reading, speaking).
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\BulletItem Software and Coding:
+\SubBulletItem Intermediate Proficiency: MATLAB, {\TeX}, COMSOL Multiphysics.
+\SubBulletItem Basic Proficiency: Python, C, Mathematica, Verilog HDL,  Adobe Photoshop.
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Acoustic Guitar,
+Singing(karaoke),
+Jogging,
+Anime,
+Ballroom Dancing(Modern).
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%% STANDARDIZED TESTS %%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Standardized Tests}
+{Standardized Tests}
+{PDF:Standardized Tests}
+
+\BulletItem
+TOEFL(iBT): 94(Reading 25, Listening 25, Speaking 19, Writing 25)
+\hfill
+\DatestampYMD{2014}{03}{22}
+
+\BulletItem
+GRE(General): Verbal 147, Quantitative 170, Analytical Writing 3.5
+\hfill
+\DatestampYMD{2015}{04}{18}
+
+\BulletItem
+CET-4: 581
+\hfill
+\DatestampYMD{2013}{06}{20}
+
+\BulletItem
+CET-6: 520
+\hfill
+\DatestampYMD{2013}{12}{20}
+
+\BulletItem
+Computer Level Test(level 2, C-language): Fine
+\hfill
+\DatestampYMD{2013}{12}{20}
+
+
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
+
+\section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Dr. Shuming Wang}
+\newline
+Assosiate Researcher in Dieletric Superlattice Laboratory,
+\newline
+Quantum Plasmonics and Metamaterials,
+\newline
+Nanjing University, National Laboratory of Solid State Microstructure
+\newline
+No.15 Jinyinjie, Nanjing City, Jiangsu, China 210008
+\newline
+\href{wangshuming@nju.edu.cn}
+{wangshuming@nju.edu.cn}
+
+\BigGap
+\BulletItem
+\textbf{Prof. Sile Nic Chormaic}
+\newline
+Principle Investigator in Light-Matter Interaction Unit
+\newline
+Okinawa Institute of Science and Technology
+\newline
+1919-1 Tancha, Onna-son, Kunigami-gun, Okinawa, Japan 904-0495
+\newline
+\href{sile.nicchormaic@oist.jp}
+{sile.nicchormaic@oist.jp}
+
+\end{body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\UseNoteFont%
+\null\hfill%
+[\textit{\CVNote}]%
+\hspace{2.0mm}\null
+
+\end{document}
